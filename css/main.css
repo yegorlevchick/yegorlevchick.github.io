@@ -1,0 +1,123 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div, header, footer, section {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+/*////////////HEADER///////////////*/
+
+header {
+	background: url(../img/banner.png) no-repeat center top / cover;
+	height: 100vh;
+	text-align: center;
+	margin: 0;
+}
+
+.logo {
+	margin-top: 11%;
+	height: 30vh;
+
+}
+
+.titles {
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 5%;
+}
+
+h1 {
+	font-size: 7vh;
+	margin: 0;
+}
+
+.titles h2 {
+	font-weight: bold;
+	font-size: 5vh;
+	margin: 1% 0 0 0;
+}
+
+
+/*////////////BOXES///////////////*/
+
+.boxes {
+	min-height: 50vh;
+	display: flex;
+	align-items: center;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.contant {
+	display: flex;
+	max-width: 40%;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contant:nth-child(1) {
+	margin-right: 10%;
+}
+
+.contant img {
+	margin-right: 7%;
+	flex-wrap: wrap;
+	height: 15vh;
+}
+
+.contant__texts {
+	max-width: 70%;
+	justify-content: center;
+}
+
+.contant__texts h3 {
+	font-size: 3vh;
+	margin: 0;
+}
+
+.contant__texts p {
+	margin: 2% 0 0 0;
+	color: #7e7d7d;
+	font-size: 1.7vh;
+}
+
+/*///////////about us/////////*/
+
+.about-us {
+	min-height: 200vh;
+	background: url(../img/bg.png) no-repeat center top / cover;
+}
+
+.about-us__contant {
+	height: 100vh;
+	max-width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 15% 0 0 0;
+	color: #fff;
+}
+
+.about-us__contant img {
+	max-height: 15vh;
+}
+
+.about-us__contant h2 {
+	font-size: 5vh;
+}
+
+.about-us__contant p {
+	font-size: 1.5vh;
+}
